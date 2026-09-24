@@ -1,0 +1,13 @@
+{
+  "name": "the-lume-hotel",
+  "version": "1.0.0",
+  "description": "The Lume Hotel: five-star hotel website, online reservations, and staff console. Zero npm dependencies.",
+  "private": true,
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node test/server.test.js && node test/payments.test.js"
+  }
+}
